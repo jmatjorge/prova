@@ -1,0 +1,15 @@
+<div id="search-component">
+ <span>Filtro: </span>
+ <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+<br> 
+  <div class="itemList" *ngIf="visiblePeople">
+      <span>Personagens</span>
+  <div *ngFor="let item of visiblePeople "> 
+    <div (click)="viewDetails(item.url)" class="itemStyle">
+      <h4>{{item.name}}</h4>
+    </div>
+  </div>
+</div>
+  
+
+</div>

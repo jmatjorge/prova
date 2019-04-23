@@ -1,0 +1,11 @@
+<div>
+    <p>Detalhe de personagem: <strong>{{peopleDetail?.name}}</strong></p>
+    <br>
+    <p>Altura: {{peopleDetail?.height}} cm</p>
+    <p>Cor dos cabelo: {{peopleDetail?.hair_color}}</p>
+    <p>Olhos: {{peopleDetail?.eye_color}}</p>
+    <p>Gênero: {{peopleDetail?.gender}}</p>
+    <span style="color:red;">Planeta Natal:</span><span>{{peopleDetail?.homeworld}}</span>
+</div>
+<br>
+<button (click)= "goBack()" type="button" class="btn btn-default">Voltar</button>

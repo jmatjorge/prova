@@ -1,0 +1,11 @@
+.itemList{
+    margin: 10px;
+ 
+}
+
+.itemStyle{
+    border: 1px solid;
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 40px
+}
